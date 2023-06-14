@@ -7,10 +7,12 @@
         "password": "1111"
       }
     ],
-    "demo2": {
+    "demo2": [
+      {
         "id": 2,
         "name": "demo2",
         "email": "demo2@demo.com",
         "password": "2222"
-    }
+      }
+    ]
 }
