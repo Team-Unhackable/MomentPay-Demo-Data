@@ -1,1 +1,16 @@
-
+{
+    "demo1": [
+      {
+        "id": 1,
+        "name": "demo1",
+        "email": "demo1@demo.com",
+        "password": "1111"
+      }
+    ],
+    "demo2": {
+        "id": 2,
+        "name": "demo2",
+        "email": "demo2@demo.com",
+        "password": "2222"
+    }
+}
