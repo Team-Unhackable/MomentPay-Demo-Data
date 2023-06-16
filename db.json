@@ -30,17 +30,24 @@
             "payers": [
               {
                 "payerId": 1,
-                "payerName": "demo1"
+                "payerName": "demo1",
+                "payerTotalProductAmount": "1",
+                "payerTotalPayAmount": "25",
+                "paymentStatus": "paid"
               },
               {
                 "payerId": 2,
-                "payerName": "demo2"
+                "payerName": "demo2",
+                "payerTotalProductAmount": "1",
+                "payerTotalPayAmount": "20",
+                "paymentStatus": "unpaid"
               }
             ],
             "paymentDate": "2023-06-18",
             "paymentMethod": "Apple Pay"
           }
-        ]
+        ],
+        "paymentStatus": "in progress"
       }
     ],
     "demo2": [
@@ -48,7 +55,50 @@
         "id": 2,
         "name": "demo2",
         "email": "demo2@demo.com",
-        "password": "2222"
+        "password": "2222",
+        "Payment": [
+          {
+            "paymentId": 1,
+            "paymentPlace": "Lib Cafe @ PolyU",
+            "products": [
+              {
+                "productId": 1,
+                "productName": "Flat White",
+                "productPrice": "25",
+                "productAmount": "1",
+                "payer": "demo1"
+              },
+              {
+                "productId": 2,
+                "productName": "Latte",
+                "productPrice": "20",
+                "productAmount": "1",
+                "payer": "demo2"
+              }
+            ],
+            "totalProuducts": "2",
+            "totalAmount": "45",
+            "payers": [
+              {
+                "payerId": 1,
+                "payerName": "demo1",
+                "payerTotalProductAmount": "1",
+                "payerTotalPayAmount": "25",
+                "paymentStatus": "paid"
+              },
+              {
+                "payerId": 2,
+                "payerName": "demo2",
+                "payerTotalProductAmount": "1",
+                "payerTotalPayAmount": "20",
+                "paymentStatus": "unpaid"
+              }
+            ],
+            "paymentDate": "2023-06-18",
+            "paymentMethod": "Apple Pay"
+          }
+        ],
+        "paymentStatus": "in progress"
       }
     ]
 }
