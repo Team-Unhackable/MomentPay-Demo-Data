@@ -4,7 +4,29 @@
         "id": 1,
         "name": "demo1",
         "email": "demo1@demo.com",
-        "password": "1111"
+        "password": "1111",
+        "Payment": [
+          {
+            "paymentId": 1,
+            "paymentPlace": "Lib Cafe @ PolyU",
+            "products": [
+              {
+                "productId": 1,
+                "productName": "Flat White",
+                "productPrice": "25"
+              },
+              {
+                "productId": 2,
+                "productName": "Latte",
+                "productPrice": "20"
+              }
+            ],
+            "totalProuducts": "2",
+            "totalAmount": "45",
+            "paymentDate": "2023-06-18",
+            "paymentMethod": "Apple Pay"
+          }
+        ]
       }
     ],
     "demo2": [
