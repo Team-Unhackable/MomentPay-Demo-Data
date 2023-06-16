@@ -23,6 +23,16 @@
             ],
             "totalProuducts": "2",
             "totalAmount": "45",
+            "payers": [
+              {
+                "payerId": 1,
+                "payerName": "demo1"
+              },
+              {
+                "payerId": 2,
+                "payerName": "demo2"
+              }
+            ],
             "paymentDate": "2023-06-18",
             "paymentMethod": "Apple Pay"
           }
