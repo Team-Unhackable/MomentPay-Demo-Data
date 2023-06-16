@@ -14,12 +14,14 @@
                 "productId": 1,
                 "productName": "Flat White",
                 "productPrice": "25",
+                "productAmount": "1",
                 "payer": "demo1"
               },
               {
                 "productId": 2,
                 "productName": "Latte",
                 "productPrice": "20",
+                "productAmount": "1",
                 "payer": "demo2"
               }
             ],
