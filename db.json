@@ -5,6 +5,7 @@
         "name": "demo1",
         "email": "demo1@demo.com",
         "password": "1111",
+        "subscription": true,
         "Payment": [
           {
             "paymentId": 1,
